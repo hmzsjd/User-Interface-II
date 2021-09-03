@@ -67,6 +67,7 @@ header nav{
     display:flex;
     justify-content:space-between;
     margin: 1%;
+    font-size: 3rem;
 }
 
 .links{
@@ -77,28 +78,35 @@ header nav{
     margin-top: 1%;
 }
 
-.logo{
-    object-fit: contain;
-    width: 9%;
-    height: 15vh;
-    background-image: url("/assets/logo.png");
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position:center;
+
+
+.logo img{
+    height: 12vh;
     display:flex;
     align-items:center;
-    
-   
+
 }
 
 
 a{
     text-decoration:none;
     letter-spacing:1px;
+    color: #522700;
 }
+
+a:hover{
+    color: darkorange;
+}
+
+a:active{
+    color: darkorange;
+}
+
+
 
 nav {
     font-size: 2rem;
+    color: #522700;
 }
 
 section{
@@ -122,9 +130,9 @@ section{
     flex-wrap: wrap;
     flex-direction: row-reverse;
     margin-right: 10%;
-    font-size: 10rem;
+    font-size: 12rem;
     white-space: nowrap;
-    height: 13vh;
+    line-height: 1;
 }
 
 
@@ -133,9 +141,10 @@ section{
     flex-wrap: wrap;
     flex-direction: row-reverse;
     margin-right: 10%;
-    font-size: 5rem;
+    font-size: 6rem;
     white-space: nowrap;
-    height: 8vh;
+    line-height: .75;
+    color: darkorange;
 }
 
 .maintitle a{
@@ -145,7 +154,16 @@ section{
     margin-right: 10%;
     color: white;
     font-size: 3rem;
+    line-height: 2.5;
+    color: white;
+    
 }
+
+.maintitle a:hover{
+    color: darkorange;
+    
+}
+
 
 .gallery{
     display:flex;
@@ -158,7 +176,7 @@ section{
     margin: 1% 0;
     background-size:cover;
     background-repeat: no-repeat;
-    background-position:center;
+   
     display:flex;
     align-items:flex-end;
 }
@@ -168,34 +186,69 @@ section{
     height: 5vh;
     display:flex;
     justify-content:center;
+    font-size: 3rem;
+    text-align: center;
+    color: #522700;
 
 }
 
 .one {
-    background-image: url("https://images.unsplash.com/photo-1542181961-9590d0c79dab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8");
+    background-image: url("https://images.unsplash.com/photo-1606131731446-5568d87113aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8");
+    background-position:center;
 }
 
 .two {
     
-    background-image: url("https://images.unsplash.com/photo-1542181961-9590d0c79dab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8");
+    background-image: url("https://images.unsplash.com/photo-1484980972926-edee96e0960d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1");
+    background-position:center;
 }
 
 .three {
     
-    background-image: url("https://images.unsplash.com/photo-1542181961-9590d0c79dab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8");
+    background-image: url("https://images.unsplash.com/photo-1599125816289-736f5025fc05");
+    background-position:center;
 }
 
 .four {
     
-    background-image: url("https://images.unsplash.com/photo-1542181961-9590d0c79dab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8");
+    background-image: url("https://images.unsplash.com/photo-1606767341197-2de041e9ad9d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1");
+    background-position: center;
 }
 
 .five {
     
-    background-image: url("https://images.unsplash.com/photo-1542181961-9590d0c79dab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8");
+    background-image: url("https://images.pexels.com/photos/982612/pexels-photo-982612.jpeg");
+    background-position:  center;
 }
 
 .six {
     
-    background-image: url("https://images.unsplash.com/photo-1542181961-9590d0c79dab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8");
+    background-image: url("https://images.unsplash.com/photo-1592861956120-e524fc739696");
+    background-position:center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    background-color: #522700;
+    align-items: center;
+    line-height: 1.2;
+    padding: 1%;
+}
+
+footer a{
+    color: white;
+    font-size: 3.5rem;
+}
+
+footer a:hover{
+    color: darkorange;
+}
+
+footer p {
+    width: 100%;
+    color: white;
+    text-align: center;
+
 }
